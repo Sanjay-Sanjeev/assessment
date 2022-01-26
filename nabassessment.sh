@@ -131,7 +131,8 @@ fi
 
 echo " "
 echo "CHECKING IF ANSIBLE IS INSTALLED"
-ansible_check=`apk info | grep ansible`
+
+ansible_check=`which ansible`
 
 if [[ $ansible_check == *"ansible"*   ]]
 then
