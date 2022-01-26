@@ -1,1 +1,3 @@
 Test File 1 - modified
+This file has GOOGLE_URL defined
+End of the file
